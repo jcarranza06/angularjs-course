@@ -1,10 +1,16 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="primeraPrueba">
     <head>
         <meta charset="utf-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.min.js"></script>
+        <script src="app.js"></script>
         <title>Hello</title>
     </head>
     <body>
         <h1>Buenas</h1>
+        <div ng-controller="controlador1"> 
+            <input type="text" ng-model="name">
+            {{name}}
+        </div>
     </body>
 </html>
