@@ -16,7 +16,27 @@
   },
   {
     name: "Chocolate",
-    quantity: "7"
+    quantity: "5"
+  },
+  {
+    name: "Huevos",
+    quantity: "15"
+  },
+  {
+    name: "Bolsas",
+    quantity: "100"
+  },
+  {
+    name: "Parlantes",
+    quantity: "2"
+  },
+  {
+    name: "Botellas",
+    quantity: "9"
+  },
+  {
+    name: "Salchicha",
+    quantity: "4"
   }
 ];
 	var comprado=[];
