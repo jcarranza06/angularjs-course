@@ -1,0 +1,14 @@
+<!--<div>
+<ul>
+    <li ng-repeat='item in buscador.categories1'>({{item.short_name}}) {{item.name}}: {{item.description}}</li> 
+</ul>
+</div>
+<div>-->
+	<div class="card w-50 my-3" ng-repeat='item in buscador.categories1'>
+  <div class="card-body">
+    <h5 class="card-title">({{item.short_name}}) {{item.name}}</h5>
+    <p class="card-text">{{item.description}}</p>
+    <a href="" class="btn btn-primary" ng-click='buscador.delete($index);'>Don't want this one!</a>
+  </div>
+</div>
+</div>
